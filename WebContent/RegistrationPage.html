@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  position: absolute;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 220px;
+  right: 10px;
+  width: 20%;
+  	border: 1px blue;
+	border-radius:20%;
+	box-shadow: 5px 10px 18px  #596ca3 ;
+	background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=350);
+	color:white;
+	text-align: center;
+  }
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 0px;
+  width: 0px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  
+  animation-name: fade;
+  animation-duration: 3s;
+  
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.tab{
+	
+	position: absolute;
+  bottom: -10px;
+  right: 1300px;
+  width: 20%;
+}
+
+
+
+a:link, a:visited {
+	background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=350);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding: 8px;
+    margin-bottom: 7px;
+	border: 1px solid #ccc;
+	border-radius:0%;
+    width: 210px;
+	box-shadow: 5px 10px 18px  #596ca3 ;
+
+}
+
+a:hover, a:active {
+	box-shadow: 5px 10px 18px  green ;
+
+	
+}
+input {
+	background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=350);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding: 8px;
+    margin-bottom: 7px;
+	border: 1px solid #ccc;
+	border-radius:0%;
+    width: 210px;
+	box-shadow: 5px 10px 18px  #596ca3 ;
+
+}
+
+
+
+
+.logo{
+
+    margin: 8px 0;
+    border: none;
+	position : absolute;
+	bottom: 320px;
+	right: 1100px;
+    width: 190px;
+    opacity: 0.9;
+	font-size: 22px;
+
+
+}
+.Container{
+	position : absolute;
+	bottom: -180px;
+	right: 20px;
+	background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&h=350);
+    color: white;
+    padding: 5px 21px;
+    text-decoration: none;
+	width: 450px;
+	height:600px;
+	border-radius:10%;
+	text-align: left;
+	
+}
+
+body{
+
+background-image:url('https://wallpaper-house.com/data/out/8/wallpaper2you_217102.jpg');
+}
+
+
+.footer{
+position: absolute;
+bottom:-200px;
+border: 1px;
+background-color: "transparent";
+font-size:10px;
+color:black;
+box-shadow: 3px 3px 5px  blue ;
+border:2px solid green;
+
+}
+
+</style>
+
+
+
+<body>
+
+
+<div class="slideshow-container">
+
+
+<div class="mySlides fade"> 
+  <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/101/101430248.jpg" style="width:1340px; height:635px;"> 
+</div>
+
+
+
+<div class="mySlides fade">  
+  <img src="https://www.gingerhotels.com/resourcefiles/hotel-profile-listing/ginger-ahmedabad-drive-in-road-hotel-th-1.jpg" style="width:1340px; height:635px;">  
+</div>
+
+
+
+<div class="mySlides fade">
+  <img src="https://taj.tajhotels.com/content/dam/luxury/hotels/Taj_Mahal_Delhi/images/4x3/HotelFacade4x3.jpg" style="width:1340px; height:635px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="http://csasoft.com/themes/restaurant/rest/images/rooms/room6.jpg" style="width:1340px; height:635px;">
+</div>
+
+
+<div class="text">
+
+
+<div class="logo">
+<img src="https://s3-eu-west-1.amazonaws.com/evian-resort-royal-hotel-staging/wp-content/uploads/2016/05/26162606/logo-royal.png"
+ style="width: 150px; height:100px;">
+</div>
+
+
+
+<div class = "tab">
+<ul>
+    <p><a href="Homepage.jsp">HOME</a></p>
+    <p><a href="royal stay.html">About</a></p>
+    <p><a href="royal stay.html">Locate Us</a></p>
+    <p><a href="royal stay.html">Feedback</a></p>
+  </ul>
+</div>
+
+
+<div class = "Container">
+<form action = "RegistrationServlet" onsubmit="return myFunction()" method="post">
+
+                <h1>Create An Account</h1>
+				
+                <p>Please fill the following form to create an account</p>
+
+                
+                 <table>
+
+                <tr>
+
+                <label for="name"><td>Name</td></label>
+
+                <td>
+
+                <input type="text" placeholder="Enter Name" name="name" required>
+
+                </td>
+
+                </tr>
+				
+				<tr>
+				
+				  <tr>
+
+                <label for="username"><td>User Name</td></label>
+
+                <td>
+
+                <input type="text" placeholder="Enter User Name" name="username" required>
+
+                </td>
+
+                </tr>
+				
+				<tr>
+				
+				
+				
+                <tr>
+
+                <label for="psw"><td>Password</td></label>
+
+                <td>
+
+                <input id ="pass1" type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+				</td>
+
+                </tr>
+				
+				<tr>
+				
+                <tr>
+
+                <label for="psw-repeat"><td>Confirm Password</td></label>
+
+                <td>
+
+                <input id ="pass2" type="password" placeholder="Confirm Password" name="psw-repeat" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                </td>
+
+                </tr>
+				
+				<tr><tr><tr><tr>
+				
+                <tr>
+
+                <label for="contact"><td>Contact No</td></label>
+
+                <td>
+
+                <input id = "phoneNo" type="text" placeholder="Enter Contact No" name="contact" required>
+
+                </td>
+
+                </tr>
+				
+				<tr>
+
+                <tr>
+
+                <label for="verification"><td>Verification Document</td></label>
+
+                <td>
+                <select name="document">
+                <option value="passport">passport</option>
+                <option value="license">license</option>
+                </select>
+				</td>
+                </tr>
+				</table>
+                                             
+	
+	 <font size=2><p  style="text-align:center">By creating an account you agree to our Terms & Privacy</p></font>
+	
+
+    <p style="text-align:center"><input type="submit" value="Sign Up"/>
+	
+    <p style="text-align:center">Already have an account? <a href="LoginPage.html"style="text-align:center">Log In Now</a>
+
+ </form>
+
+</div>	
+ 
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  </div>
+
+
+
+
+<script>
+
+
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+
+
+
+var myInput = document.getElementById("psw");
+
+var letter = document.getElementById("letter");
+
+var capital = document.getElementById("capital");
+
+var number = document.getElementById("number");
+
+var length = document.getElementById("length");
+
+ 
+
+// When the user clicks on the password field, show the message box
+
+myInput.onfocus = function() {
+
+    document.getElementById("message").style.display = "block";
+
+}
+
+ 
+
+// When the user clicks outside of the password field, hide the message box
+
+myInput.onblur = function() {
+
+    document.getElementById("message").style.display = "none";
+
+}
+
+ 
+
+// When the user starts to type something inside the password field
+
+myInput.onkeyup = function() {
+
+  // Validate lowercase letters
+
+  var lowerCaseLetters = /[a-z]/g;
+
+  if(myInput.value.match(lowerCaseLetters)) { 
+
+    letter.classList.remove("invalid");
+
+    letter.classList.add("valid");
+
+  } else {
+
+    letter.classList.remove("valid");
+
+    letter.classList.add("invalid");
+
+  }
+
+ 
+
+  // Validate capital letters
+
+  var upperCaseLetters = /[A-Z]/g;
+
+  if(myInput.value.match(upperCaseLetters)) { 
+
+    capital.classList.remove("invalid");
+
+    capital.classList.add("valid");
+
+  } else {
+
+    capital.classList.remove("valid");
+
+    capital.classList.add("invalid");
+
+  }
+  
+
+ 
+
+  // Validate numbers
+
+  var numbers = /[0-9]/g;
+
+  if(myInput.value.match(numbers)) { 
+
+    number.classList.remove("invalid");
+
+    number.classList.add("valid");
+
+  } else {
+
+    number.classList.remove("valid");
+
+    number.classList.add("invalid");
+
+  }
+
+ 
+
+  // Validate length
+
+  if(myInput.value.length >= 8) {
+
+    length.classList.remove("invalid");
+
+    length.classList.add("valid");
+
+  } else {
+
+    length.classList.remove("valid");
+
+    length.classList.add("invalid");
+
+  }
+
+}
+
+function myFunction() {
+
+    var pass1 = document.getElementById("pass1").value;
+
+    var pass2 = document.getElementById("pass2").value;
+
+    var ok = true;
+
+    if (pass1 != pass2) {
+
+        alert("Passwords did not match");
+
+        document.getElementById("pass1").style.borderColor = "#E34234";
+
+        document.getElementById("pass2").style.borderColor = "#E34234";
+
+        ok = false;
+
+    }
+
+    else {
+
+        //alert("Passwords Match!!!");
+
+    }
+ValidateNo();
+
+    return ok;
+
+}
+
+function ValidateNo() {
+
+  var phoneNo = document.getElementById("phoneNo").value;
+
+ 
+
+//  if (phoneNo == "" || phoneNo == null) {
+
+//    alert("Please enter your Mobile No.");
+
+//    return false;
+
+//  }
+
+  if (phoneNo.length < 10 || phoneNo.length > 10) {
+
+    alert("Mobile No. is not valid, Please Enter 10 Digit Mobile No.");
+
+    return false;
+
+  }
+  return true;
+
+}
+
+function myFunction1() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+</script>
+
+ 
+</body>
+</html> 
